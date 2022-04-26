@@ -17,7 +17,7 @@ p {
 .containerHeader {
     width: 100%;
     text-align: center;
-    background-image: url("/images/bg-header-desktop.png");
+    background-image: url("../images/bg-header-desktop.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -96,6 +96,6 @@ button {
     }
 
     .containerHeader {
-        background-image: url("/images/bg-header-mobile.png");
+        background-image: url("../images/bg-header-mobile.png");
     }
 }
