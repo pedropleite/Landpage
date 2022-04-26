@@ -1,0 +1,259 @@
+main {
+    width: 100%;
+}
+
+.containerMainFirst {
+    margin-top: 15%;
+    margin-bottom: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.containerMainFirstText {
+    width: 55%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.2%;
+}
+
+.containerMainFirstText h2 {
+    margin-bottom: 2.4%;
+    font-size: 1.5em;
+}
+
+.containerMainFirstText p {
+    font-size: 0.9rem;
+    line-height: 1.7em;
+}
+
+.containerMainPc {
+    margin-bottom: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerMainPcImage {
+    position: relative;
+    top: 10%;
+    right: 6%;
+}
+
+
+.containerMainPcText {
+    width: 33%;
+    max-height: 80%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.containerMainPcText h2 {
+    margin-top: 70px;
+}
+
+.containerMainPcText p {
+    font-size: 0.8rem;
+    line-height: 1.7em;
+}
+
+.containerMainTablet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMainTabletText {
+    width: 50%;
+    text-align: center;
+    align-items: flex-start;
+    margin-bottom: 8%;
+}
+
+.containerMainTabletText h2 {
+    margin-bottom: 2.4%;
+    font-size: 1.5em;
+}
+
+.containerMainTabletText p {
+    line-height: 1.7em;
+    font-size: 0.9rem;
+}
+
+.containerMainTabletImage {
+    align-self: center;
+}
+
+.containerMainSecond {
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.containerMainSecondText h2 {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+/*.containerMainSecondTools {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+
+.containerMainSecondTools img {
+    margin-bottom: 7%;
+}*/
+
+.containerMainSecondTools {
+    margin-bottom: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.containerMainSecondTools div:nth-child(1) {
+    position: relative;
+    bottom: 10px;
+}
+
+.containerMainSecondTools img {
+    margin-bottom: 7%;
+}
+
+.containerMainSecondTools h2 {
+    margin-bottom: 4%;
+}
+
+.containerMainSecondTools p {
+    font-size: 0.8rem;
+}
+
+.containerMainSecondTools1 {
+    flex-basis: 28%;
+}
+
+.containerMainSecondImages {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.containerFinalBtn {
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.containerFinalBtnText {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1%;
+    margin-bottom: 5%;
+}
+
+.containerFinalBtnText h2 {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+.containerFinalBtnText p {
+    font-size: 0.9rem;
+    line-height: 1.7em;
+}
+
+.containerFinalBtnButtons {
+    display: flex;
+    gap: 3%;
+}
+
+.containerFinalBtnButtons button:nth-child(1) {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.containerFinalBtnButtons button:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+}
+
+@media (max-width: 1120px) {
+
+    .containerMainPcImage {
+        position: relative;
+        left: 20%;
+    }
+
+    .containerMainPcImage img {
+        width: 60%;
+    }
+
+
+    .containerMainTabletImage {
+        text-align: center;
+    }
+
+    .containerMainTabletImage img {
+        width: 60%;
+    }
+
+    .containerMainSecondTools {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .containerFinalBtnButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .containerMainSecondImages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .containerMainSecondImages img {
+        width: 30%;
+    }
+
+    .containerMainSecondTools div:nth-child(1) {
+        position: relative;
+        bottom: 0;
+    }
+
+    .containerMainSecondTools img {
+        margin-bottom: 0;
+    }
+
+    .containerMainSecondTools h2 {
+        margin-bottom: 0;
+    }
+}

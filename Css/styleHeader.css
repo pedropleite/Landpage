@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: baijam;
+    overflow-x: hidden;
+}
+
+h2 {
+    color: #484848;
+}
+
+p {
+    color: #909090;
+}
+
+.containerHeader {
+    width: 100%;
+    text-align: center;
+    background-image: url("/images/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerHeader img {
+    margin-top: 5%;
+    width: 10%;
+    margin-bottom: 5%;
+}
+
+.containerHeaderContent {
+    margin-top: 5%;
+    text-align: center;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1%;
+
+}
+
+.containerHeaderContent h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #484848;
+}
+
+.containerHeaderContent h3 {
+    font-size: 0.9rem;
+    line-height: 1.7em;
+    color: #909090;
+}
+
+.containerHeaderBtn {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+button {
+    width: 220px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9em;
+    font-weight: lighter;
+    color: white;
+    cursor: pointer;
+}
+
+.containerHeaderBtn button:nth-child(1) {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.containerHeaderBtn button:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+}
+
+@media (max-width: 1120px) {
+    .containerHeader img {
+        width: 25%;
+    }
+
+    button {
+        width: 30vw;
+    }
+
+    .containerHeaderBtn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .containerHeader {
+        background-image: url("/images/bg-header-mobile.png");
+    }
+}
