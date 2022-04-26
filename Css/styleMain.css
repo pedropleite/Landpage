@@ -108,17 +108,6 @@ main {
     margin-bottom: 5%;
 }
 
-/*.containerMainSecondTools {
-    position: relative;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-evenly;
-}
-
-.containerMainSecondTools img {
-    margin-bottom: 7%;
-}*/
-
 .containerMainSecondTools {
     margin-bottom: 7%;
     width: 100%;
