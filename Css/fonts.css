@@ -1,27 +1,27 @@
 @font-face {
     font-family: "baijam";
-    src: url(/fonts/BaiJamjuree-SemiBold.ttf) format("truetype");
+    src: url("/fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "baijam";
-    src: url(/fonts/BaiJamjuree-ExtraLight.ttf) format("truetype");
+    src: url("/fonts/BaiJamjuree-ExtraLight.ttf") format("truetype");
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: "baijam";
-    src: url(/fonts/BaiJamjuree-Regular.ttf) format("truetype");
+    src: url("/fonts/BaiJamjuree-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "baijam";
-    src: url(/fonts/BaiJamjuree-Bold.ttf) format("truetype");
+    src: url("/fonts/BaiJamjuree-Bold.ttf") format("truetype");
     font-weight: bolder;
     font-style: normal;
 }
